@@ -21,7 +21,7 @@ class Catalog extends React.Component {
       });
     };
 
-    const handleClickClear = e => {
+    const handleClickClear = () => {
       console.log("click");
       this.setState({
         manufacture: "all"
@@ -59,7 +59,10 @@ class Catalog extends React.Component {
     });
 
     const productsToShow = products.filter(product => {
-      return product.manufacture === this.state.manufacture;
+      return (
+        product.manufacture.toLowerCase() ===
+        this.state.manufacture.toLowerCase()
+      );
     });
 
     return (
