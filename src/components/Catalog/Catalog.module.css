@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.product_container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 200px 0 200px;
+}
+
+.column_left {
+    width: 15%;
+}
+
+.column_right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.header {
+    font-weight: 600;
+    margin: 10px;
+    width: 20%;
+    text-align: left;
+}
+
+.clear__button {
+    min-width: 60px;
+    width: 20%;
+}
+
+.filter_inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.filter_input {
+    width: 80%;
+}

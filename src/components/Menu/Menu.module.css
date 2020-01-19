@@ -1,0 +1,27 @@
+.navigation {
+    background-color: rgb(2, 0, 26);
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+.navigation__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 200px;
+    list-style: none;
+    max-width: 970px;
+    position: relative;
+    right: 0;
+    width: 50%;
+}
+
+.navigation__element {
+    margin-right: 70px;
+}
+
+.navigation__link {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
