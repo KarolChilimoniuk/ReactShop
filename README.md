@@ -1,6 +1,6 @@
 ***
 ### Introduction 
-It's my simple project of the shop in React library. 
+It's my simple project of the shop wrote with React library. 
 ***
 ### Technologies and Tools 🏗
 * JSX
@@ -10,7 +10,7 @@ It's my simple project of the shop in React library.
 * create-react-app
 * Visual Studio Code
 
-### How it run?
+### How does it run?
 1. Clone this repo.
 2. Go to a repo file by console.
 3. Install packages by writing command in console:
